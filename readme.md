@@ -1,6 +1,9 @@
-FORMAT:1A
+# VCT API
 
-# Group HTTP Example
+
+[TOC]
+
+## Group HTTP Example
 
 ## SUCCESS [/api/v1/success]
 
@@ -280,7 +283,7 @@ FORMAT:1A
         - amount：转账金额
         - \[external\]: 表示转账由外部chaincode执行
         - time: 事务上链时间
- 
+
 + Parameters
 
     + fundID: `ec239f5e06ff497a96e2d3ee9d266867` (string, required) - 转账事务 ID，POST 请求的响应中提取
@@ -470,8 +473,9 @@ FORMAT:1A
 
 
 + Parameters
-    + height: `6` (string, required) - 区块高度
-
+  
++ height: `6` (string, required) - 区块高度
+  
 + Response 200 (application/json;charset=utf-8)
 
     + Body
@@ -595,3 +599,4 @@ FORMAT:1A
                     "lastFundID": "c52cad8b-6aa3-4001-88df-7da9e22e4526"
                 }
             }
+
