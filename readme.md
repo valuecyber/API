@@ -1,8 +1,5 @@
 # VCT API
 
-
-[TOC]
-
 ## Group HTTP Example
 
 ## SUCCESS [/api/v1/success]
