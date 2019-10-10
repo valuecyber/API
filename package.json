@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "## Group HTTP Example",
+  "main": "sign_tx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastcity/API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fastcity/API/issues"
+  },
+  "homepage": "https://github.com/fastcity/API#readme",
+  "dependencies": {
+    "ethereumjs-util": "^6.1.0"
+  }
+}
